@@ -4,7 +4,7 @@ import subprocess
 import os
 
 # Bot prefix
-bot = commands.Bot(command_prefix=".t", intents=discord.Intents.all())
+bot = commands.Bot(command_prefix="bv", intents=discord.Intents.all())
 
 # A dictionary of 50 frei0r effects
 frei0r_effects = {
